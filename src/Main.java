@@ -43,7 +43,6 @@ public class Main {
                 System.out.println("Привет!");
                 int z = 2147483647+1;
                 System.out.println(z);
-                System.out.println(z*z);
             }
 
         }
