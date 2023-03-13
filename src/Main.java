@@ -24,7 +24,46 @@ public class Main {
             }
 
             case 2: {
+                System.out.print("Input cost for item A (BYN): ");
+                int a2 = in.nextInt();
+                System.out.print("How many items would you like to take?: ");
+                int count_a2 = in.nextInt();
+                System.out.print("Input cost for item B (BYN): ");
+                int b2 = in.nextInt();
+                System.out.print("How many items would you like to take?: ");
+                int count_b2 = in.nextInt();
+                double sum2;
+                if (count_a2 > 0 & count_b2 > 0) {
+                    sum2 = (((a2 * count_a2) + (b2 * count_b2)) * 0.9);
+                    System.out.println("Цена товара составляет: " + sum2);
+                    System.out.println("Ваша скидка: " + (((a2 * count_a2) + (b2 * count_b2)) * 0.1));
+                }
+                if (count_a2 == 0 | count_b2 == 0)
+                {
+                    System.out.println("Цена товара составляет: " + ((a2 * count_a2) + (b2 * count_b2)));
+                }
+                if (count_a2 < 0 | count_b2 < 0){
+                    System.out.println("Произошла ошибка!!!!");
+                }
+                break;
+            }
 
+            case 3:{
+                int x3 = 5;
+                int y3 = 10;
+                double gipotenuza3 = Math.sqrt((x3*x3) + (y3*y3));
+                System.out.println("Gipotenuza = " + gipotenuza3);
+                break;
+            }
+
+            case 4: {
+                System.out.print("Введите х: ");
+                int x4 = in.nextInt();
+                System.out.print("Введите y: ");
+                int y4 = in.nextInt();
+                double gipotenuza4 = Math.sqrt((x4*x4) + (y4*y4));
+                System.out.println("Gipotenuza = " + gipotenuza4);
+                break;
             }
 
 
@@ -43,6 +82,20 @@ public class Main {
                 System.out.println("Привет!");
                 int z = 2147483647+1;
                 System.out.println(z);
+            }
+
+            case 9:{
+                int x9 = 5;
+                int y9 = 7;
+                float z9 = 0;
+                float k9 = 9;
+                k9 = x9/z9;
+                System.out.println("k= " + k9);
+                z9 = ((x9*x9) + (y9*y9));
+                System.out.println("z= " + z9);
+                System.out.println("z= " + Math.pow(x9, 3));
+                break;
+
             }
 
         }
