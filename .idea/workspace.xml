@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aea7799-6a2a-42b4-a621-e93929e9ea71" name="Changes" comment="Return back">
+    <list default="true" id="3aea7799-6a2a-42b4-a621-e93929e9ea71" name="Changes" comment="Added additional exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -61,13 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678629410323</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added additional exercises">
+      <created>1678715388727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678715388727</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add first point of additional home task" />
     <MESSAGE value="Add additional string for case 8" />
     <MESSAGE value="Return back" />
-    <option name="LAST_COMMIT_MESSAGE" value="Return back" />
+    <MESSAGE value="Added additional exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added additional exercises" />
   </component>
 </project>

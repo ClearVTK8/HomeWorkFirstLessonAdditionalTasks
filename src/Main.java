@@ -77,11 +77,22 @@ public class Main {
                 break;
             }
 
+            case 6:{
+                System.out.print("Введите 3 значное натуральное число: ");
+                int number6 = in.nextInt();
+                int first_digit = number6 / 100;
+                int second_digit = (number6 % 100) / 10;
+                int third_digit = ((number6 % 100) % 10);
+                System.out.print("Сумма цифр этого числа = " + (first_digit + second_digit + third_digit));
+                break;
+            }
+
             case 8: {
                 //Задача 8
                 System.out.println("Привет!");
                 int z = 2147483647+1;
                 System.out.println(z);
+                break;
             }
 
             case 9:{
